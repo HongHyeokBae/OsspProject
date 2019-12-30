@@ -20,7 +20,7 @@ Test folder: 8041 images, avg: 41.0 images per class.
 
 ## Training
 Run the jupyter notebook file `our_proposal_model.ipynb`  
-After training finished, the model will be saved in `/newModel.pt`
+After training finished, the model will be saved as `newModel.pt`
 
 ## Prediction
 Place a car image you want to predict in `data/test_images.jpeg`.  
