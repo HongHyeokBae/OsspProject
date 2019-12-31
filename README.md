@@ -19,7 +19,7 @@ Test folder: 8041 images, avg: 41.0 images per class.
 - GPU is recommended for training
 
 ## Training
-Run the jupyter notebook file `our_proposal_model.ipynb`  
+`our_proposal_model.ipynb` contains code to train the model  
 After training finished, the model will be saved as `newModel.pt`
 
 ## Prediction
@@ -28,7 +28,7 @@ Place a car image you want to predict in `data/test_images.jpeg`.
 
 Then, run `prediction.ipynb`
 
-# Conclusion
+# Result
 |model|test acc|
 |:---:|:---:|
 |ResNet50|76.04|
@@ -38,7 +38,7 @@ Then, run `prediction.ipynb`
 This table is about best accuracy for each model during 30 epochs.  Our proposal model achieved better performance(82.07%) than RestNet50(76.04%) or VGG16(79.88%).
 
 # Issues
-- Our proposal model has shown improvment in test accuracy, but the training accuracy is about 99%. This can be considered as overfitting. 
+- Our proposal model has shown improvment in test accuracy, but the training accuracy has been about 99%. This can be considered as overfitting. 
 - The weights of voting system are now arbitrary numbers. They should be modified accordingly.
 
 
